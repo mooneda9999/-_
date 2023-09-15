@@ -5,9 +5,7 @@ int main(){
 	scanf("%d", &x);
 	for(int i = 0; i < 5; i++){
 		scanf("%d", &N);
-		if(x == N){
-			y++;
-		}	
+		if(x == N) y++;
 	}
 	printf("%d", y);
 }
